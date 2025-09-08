@@ -5,6 +5,8 @@ VisualStudioVersion = 17.14.36408.4 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookMeeting", "BookMeeting\BookMeeting.csproj", "{522142AD-33EC-4584-9F5A-9D50BF444174}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebPaymentGateway", "WebPaymentGateway\WebPaymentGateway.csproj", "{95C76A0A-DFD0-4614-A1EF-3FD8E16CAE41}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{522142AD-33EC-4584-9F5A-9D50BF444174}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{522142AD-33EC-4584-9F5A-9D50BF444174}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{522142AD-33EC-4584-9F5A-9D50BF444174}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95C76A0A-DFD0-4614-A1EF-3FD8E16CAE41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95C76A0A-DFD0-4614-A1EF-3FD8E16CAE41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95C76A0A-DFD0-4614-A1EF-3FD8E16CAE41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95C76A0A-DFD0-4614-A1EF-3FD8E16CAE41}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
