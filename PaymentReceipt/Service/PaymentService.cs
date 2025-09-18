@@ -3,6 +3,7 @@ using PaymentReceipt.DTOs;
 using PaymentReceipt.Events;
 using PaymentReceipt.Repository;
 using PaymentReceipt.ValueObjects;
+using System;
 
 namespace PaymentReceipt.Service
 {
@@ -33,6 +34,22 @@ namespace PaymentReceipt.Service
             _publisher.Publish(receipt.ToCreatedEvent());
 
             return receipt.ReceiptId;
+        }
+
+        public Receipt GetById(string  receiptId)
+        {
+            if (string.IsNullOrWhiteSpace(receiptId))
+                throw new ArgumentException("Receipt Id is required", nameof(receiptId));
+
+            if (!Guid.TryParse(receiptId, out var guid))
+                throw new ArgumentException("Invalid Receipt Id format", nameof(receiptId));
+
+            var receipt = _repo.GetById(new ReceiptId(guid));
+
+            if (receipt == null)
+                return null; // Not found → API can return 404
+
+            return receipt;
         }
     }
 }
