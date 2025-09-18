@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscountCoupon", "DiscountC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentReceipt", "PaymentReceipt\PaymentReceipt.csproj", "{8858D29F-24AD-404D-920B-69EBDB27D268}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SplitBillAmongFriends", "SplitBillAmongFriends\SplitBillAmongFriends.csproj", "{47C4F7B0-98C3-4252-84B7-467F7B808C62}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{8858D29F-24AD-404D-920B-69EBDB27D268}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8858D29F-24AD-404D-920B-69EBDB27D268}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8858D29F-24AD-404D-920B-69EBDB27D268}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47C4F7B0-98C3-4252-84B7-467F7B808C62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47C4F7B0-98C3-4252-84B7-467F7B808C62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47C4F7B0-98C3-4252-84B7-467F7B808C62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47C4F7B0-98C3-4252-84B7-467F7B808C62}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
