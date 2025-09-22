@@ -1,0 +1,1 @@
+﻿public enum SpotType { Car, Bike, Truck }

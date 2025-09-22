@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentReceipt", "PaymentRe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SplitBillAmongFriends", "SplitBillAmongFriends\SplitBillAmongFriends.csproj", "{47C4F7B0-98C3-4252-84B7-467F7B808C62}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkingSystem", "ParkingSystem\ParkingSystem.csproj", "{F898FFBD-C79B-4195-A867-DCF9D564ED58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrafficSignalManagement", "TrafficSignalManagement\TrafficSignalManagement.csproj", "{985A7087-735E-457F-9A53-CE639BFD6C5B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{47C4F7B0-98C3-4252-84B7-467F7B808C62}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47C4F7B0-98C3-4252-84B7-467F7B808C62}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47C4F7B0-98C3-4252-84B7-467F7B808C62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F898FFBD-C79B-4195-A867-DCF9D564ED58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F898FFBD-C79B-4195-A867-DCF9D564ED58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F898FFBD-C79B-4195-A867-DCF9D564ED58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F898FFBD-C79B-4195-A867-DCF9D564ED58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{985A7087-735E-457F-9A53-CE639BFD6C5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{985A7087-735E-457F-9A53-CE639BFD6C5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{985A7087-735E-457F-9A53-CE639BFD6C5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{985A7087-735E-457F-9A53-CE639BFD6C5B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

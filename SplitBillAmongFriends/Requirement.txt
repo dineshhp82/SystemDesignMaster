@@ -24,5 +24,51 @@
 
 - SpiltService
    - SplitBill(Bill bill, SpiltStrategy strategy): List<Share>
+
+
+
+
+
+   +-------------------+
+|   Bill (Entity)   |
+|-------------------|
+| BillId            |
+| TotalAmount       |
+| Friends[]         |
++-------------------+
+
++--------------------+
+|   Friend (Entity)  |
+|--------------------|
+| FriendId           |
+| Name               |
++--------------------+
+
++-----------------------------+
+|  SplitStrategy (Interface)  |<--- Strategy Pattern
+|-----------------------------|
+| Split(Bill) -> List<Share>  |
++-----------------------------+
+        /            \
+       /              \
++----------------+  +-------------------+
+| EqualSplit     |  | CustomSplit       |
+|----------------|  |-------------------|
+| Split(Bill)    |  | Split(Bill)       |
++----------------+  +-------------------+
+
++--------------------+
+|   Share (VO)       |
+|--------------------|
+| FriendId           |
+| AmountOwed         |
++--------------------+
+
++--------------------+
+| SplitService       |<--- Orchestrator
+|--------------------|
+| ExecuteSplit()     |
++--------------------+
+
     
  
