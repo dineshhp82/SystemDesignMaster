@@ -23,7 +23,9 @@ namespace TrafficSignalManagement
             _notifier = notifier;
             _config = config;
             CurrentState = new NSGreenState();
+            //FakeTimeProvider
         }
+
 
         public Signal GetSignal(string loc) => _signalRepo.GetSignal(loc);
 
