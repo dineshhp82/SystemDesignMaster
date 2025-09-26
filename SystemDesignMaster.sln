@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LRUCache", "LRUCache\LRUCac
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoundRobinSystem", "RoundRobinSystem\RoundRobinSystem.csproj", "{4C22728D-BE86-4D88-98FB-9555D3595B88}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RuleEngine", "RuleEngine\RuleEngine.csproj", "{24C60A2F-C460-41A6-B079-007BE9F2BE42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistibutedLogger", "DistibutedLogger\DistibutedLogger.csproj", "{70CE8753-78DF-4306-83FF-FCC6A5476A85}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,14 @@ Global
 		{4C22728D-BE86-4D88-98FB-9555D3595B88}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C22728D-BE86-4D88-98FB-9555D3595B88}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C22728D-BE86-4D88-98FB-9555D3595B88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24C60A2F-C460-41A6-B079-007BE9F2BE42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24C60A2F-C460-41A6-B079-007BE9F2BE42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24C60A2F-C460-41A6-B079-007BE9F2BE42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24C60A2F-C460-41A6-B079-007BE9F2BE42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70CE8753-78DF-4306-83FF-FCC6A5476A85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70CE8753-78DF-4306-83FF-FCC6A5476A85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70CE8753-78DF-4306-83FF-FCC6A5476A85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70CE8753-78DF-4306-83FF-FCC6A5476A85}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -17,12 +17,6 @@
             _cacheMap = new Dictionary<K, Node<K, V>>();
         }
 
-        /*
-         
-         
-         
-         */
-
         public V Get(K key)
         {
             _lock.EnterUpgradeableReadLock();
