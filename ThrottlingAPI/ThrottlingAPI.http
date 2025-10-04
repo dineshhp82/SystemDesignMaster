@@ -1,0 +1,6 @@
+@ThrottlingAPI_HostAddress = http://localhost:5090
+
+GET {{ThrottlingAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
