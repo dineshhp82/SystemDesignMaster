@@ -37,6 +37,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThrottlingAPI", "Throttling
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcurrentCache", "ConcurrentCache\ConcurrentCache.csproj", "{B982030A-76A7-4C3E-85AB-C3413D8768A5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherTestApi", "WeatherTestApi\WeatherTestApi.csproj", "{19DE237E-A015-4BCD-97F3-F398C5AA4FA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherApiIntegrationTests", "WeatherApiIntegrationTests\WeatherApiIntegrationTests.csproj", "{8E0B8026-3E5C-4914-B6CC-6E79D950E80D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +115,14 @@ Global
 		{B982030A-76A7-4C3E-85AB-C3413D8768A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B982030A-76A7-4C3E-85AB-C3413D8768A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B982030A-76A7-4C3E-85AB-C3413D8768A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19DE237E-A015-4BCD-97F3-F398C5AA4FA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19DE237E-A015-4BCD-97F3-F398C5AA4FA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19DE237E-A015-4BCD-97F3-F398C5AA4FA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19DE237E-A015-4BCD-97F3-F398C5AA4FA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E0B8026-3E5C-4914-B6CC-6E79D950E80D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E0B8026-3E5C-4914-B6CC-6E79D950E80D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E0B8026-3E5C-4914-B6CC-6E79D950E80D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E0B8026-3E5C-4914-B6CC-6E79D950E80D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
